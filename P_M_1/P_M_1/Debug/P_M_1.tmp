@@ -1,0 +1,205 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\Debug\P_M_1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>P_M_1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>P_M_1.map</FILE>
+  <FILE>P_M_1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SETUP><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>72</LINE></SETUP>
+  <ISR_TIMER0_OVF><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1834</LINE></ISR_TIMER0_OVF>
+  <TABLA7U><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>59</LINE></TABLA7U>
+  <TABLA7D><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>60</LINE></TABLA7D>
+  <TABLA7Uh><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>61</LINE></TABLA7Uh>
+  <TABLA7Dh><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>62</LINE></TABLA7Dh>
+  <Init_T0><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1822</LINE></Init_T0>
+  <S0><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>152</LINE></S0>
+  <RETROpc1_S0><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1725</LINE></RETROpc1_S0>
+  <WAIT3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>192</LINE></WAIT3>
+  <WAIT4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>209</LINE></WAIT4>
+  <WAIT5><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>226</LINE></WAIT5>
+  <WAIT6><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>243</LINE></WAIT6>
+  <S0_S><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>258</LINE></S0_S>
+  <WAIT3_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>293</LINE></WAIT3_2>
+  <WAIT4_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>310</LINE></WAIT4_2>
+  <WAIT5_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>327</LINE></WAIT5_2>
+  <WAIT6_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>344</LINE></WAIT6_2>
+  <over_nine_su><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>396</LINE></over_nine_su>
+  <over_nine_sd><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>401</LINE></over_nine_sd>
+  <over_nine_mu><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>406</LINE></over_nine_mu>
+  <over_nine_md><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>412</LINE></over_nine_md>
+  <over_nine_hu><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>418</LINE></over_nine_hu>
+  <over_nine_hd><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>424</LINE></over_nine_hd>
+  <S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>437</LINE></S1>
+  <RETROpc1_S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1752</LINE></RETROpc1_S1>
+  <RETROpc2_S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1745</LINE></RETROpc2_S1>
+  <SEMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>468</LINE></SEMU>
+  <EMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>473</LINE></EMU>
+  <SEMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>553</LINE></SEMD>
+  <DECEMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>502</LINE></DECEMU>
+  <INCEMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>527</LINE></INCEMU>
+  <DECEMU_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>517</LINE></DECEMU_2>
+  <WAIT_DECEMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>511</LINE></WAIT_DECEMU>
+  <WAIT_DECEMU_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>522</LINE></WAIT_DECEMU_1>
+  <INCEMU_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>541</LINE></INCEMU_2>
+  <WAIT_INCEMU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>536</LINE></WAIT_INCEMU>
+  <WAIT_INCEMU_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>547</LINE></WAIT_INCEMU_1>
+  <EMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>558</LINE></EMD>
+  <SEHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>639</LINE></SEHU>
+  <DECEMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>586</LINE></DECEMD>
+  <INCEMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>611</LINE></INCEMD>
+  <DECEMD_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>601</LINE></DECEMD_2>
+  <WAIT_DECEMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>595</LINE></WAIT_DECEMD>
+  <WAIT_DECEMD_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>606</LINE></WAIT_DECEMD_1>
+  <INCEMD_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>625</LINE></INCEMD_2>
+  <WAIT_INCEMD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>620</LINE></WAIT_INCEMD>
+  <WAIT_INCEMD_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>631</LINE></WAIT_INCEMD_1>
+  <EHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>644</LINE></EHU>
+  <SEHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>725</LINE></SEHD>
+  <DECEHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>672</LINE></DECEHU>
+  <INCEHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>697</LINE></INCEHU>
+  <DECEHU_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>687</LINE></DECEHU_2>
+  <WAIT_DECEHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>681</LINE></WAIT_DECEHU>
+  <WAIT_DECEHU_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>692</LINE></WAIT_DECEHU_1>
+  <INCEHU_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>711</LINE></INCEHU_2>
+  <WAIT_INCEHU><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>706</LINE></WAIT_INCEHU>
+  <WAIT_INCEHU_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>717</LINE></WAIT_INCEHU_1>
+  <EHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>729</LINE></EHD>
+  <DECEHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>757</LINE></DECEHD>
+  <INCEHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>782</LINE></INCEHD>
+  <DECEHD_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>772</LINE></DECEHD_2>
+  <WAIT_DECEHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>766</LINE></WAIT_DECEHD>
+  <WAIT_DECEHD_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>777</LINE></WAIT_DECEHD_1>
+  <INCEHD_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>796</LINE></INCEHD_2>
+  <WAIT_INCEHD><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>791</LINE></WAIT_INCEHD>
+  <WAIT_INCEHD_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>802</LINE></WAIT_INCEHD_1>
+  <S2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>811</LINE></S2>
+  <RETROpc1_S2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1757</LINE></RETROpc1_S2>
+  <WAIT3_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>832</LINE></WAIT3_3>
+  <WAIT4_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>849</LINE></WAIT4_3>
+  <WAIT5_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>866</LINE></WAIT5_3>
+  <WAIT6_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>882</LINE></WAIT6_3>
+  <over_dia_u><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>914</LINE></over_dia_u>
+  <over_dia_d><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>919</LINE></over_dia_d>
+  <over_mes_u><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>924</LINE></over_mes_u>
+  <over_mes_d><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>929</LINE></over_mes_d>
+  <S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>939</LINE></S3>
+  <S3_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>946</LINE></S3_1>
+  <RETROpc1_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1784</LINE></RETROpc1_S3>
+  <S3_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>956</LINE></S3_2>
+  <RETROpc2_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1778</LINE></RETROpc2_S3>
+  <SEMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>986</LINE></SEMU_3>
+  <CLEAR_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>981</LINE></CLEAR_S3>
+  <EMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>991</LINE></EMU_3>
+  <SEMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1071</LINE></SEMD_3>
+  <DECEMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1020</LINE></DECEMU_3>
+  <INCEMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1045</LINE></INCEMU_3>
+  <DECEMU_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1035</LINE></DECEMU_2_3>
+  <WAIT_DECEMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1029</LINE></WAIT_DECEMU_3>
+  <WAIT_DECEMU_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1040</LINE></WAIT_DECEMU_1_3>
+  <INCEMU_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1059</LINE></INCEMU_2_3>
+  <WAIT_INCEMU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1054</LINE></WAIT_INCEMU_3>
+  <WAIT_INCEMU_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1065</LINE></WAIT_INCEMU_1_3>
+  <EMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1076</LINE></EMD_3>
+  <SEHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1157</LINE></SEHU_3>
+  <DECEMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1104</LINE></DECEMD_3>
+  <INCEMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1129</LINE></INCEMD_3>
+  <DECEMD_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1119</LINE></DECEMD_2_3>
+  <WAIT_DECEMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1113</LINE></WAIT_DECEMD_3>
+  <WAIT_DECEMD_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1124</LINE></WAIT_DECEMD_1_3>
+  <INCEMD_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1143</LINE></INCEMD_2_3>
+  <WAIT_INCEMD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1138</LINE></WAIT_INCEMD_3>
+  <WAIT_INCEMD_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1149</LINE></WAIT_INCEMD_1_3>
+  <EHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1162</LINE></EHU_3>
+  <SEHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1242</LINE></SEHD_3>
+  <DECEHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1189</LINE></DECEHU_3>
+  <INCEHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1214</LINE></INCEHU_3>
+  <DECEHU_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1204</LINE></DECEHU_2_3>
+  <WAIT_DECEHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1198</LINE></WAIT_DECEHU_3>
+  <WAIT_DECEHU_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1209</LINE></WAIT_DECEHU_1_3>
+  <INCEHU_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1228</LINE></INCEHU_2_3>
+  <WAIT_INCEHU_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1223</LINE></WAIT_INCEHU_3>
+  <WAIT_INCEHU_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1234</LINE></WAIT_INCEHU_1_3>
+  <EHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1246</LINE></EHD_3>
+  <DECEHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1273</LINE></DECEHD_3>
+  <INCEHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1298</LINE></INCEHD_3>
+  <DECEHD_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1288</LINE></DECEHD_2_3>
+  <WAIT_DECEHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1282</LINE></WAIT_DECEHD_3>
+  <WAIT_DECEHD_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1293</LINE></WAIT_DECEHD_1_3>
+  <INCEHD_2_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1312</LINE></INCEHD_2_3>
+  <WAIT_INCEHD_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1307</LINE></WAIT_INCEHD_3>
+  <WAIT_INCEHD_1_3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1318</LINE></WAIT_INCEHD_1_3>
+  <S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1330</LINE></S4>
+  <S4_1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1342</LINE></S4_1>
+  <RETROpc1_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1812</LINE></RETROpc1_S4>
+  <S4_2><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1354</LINE></S4_2>
+  <RETROpc2_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1805</LINE></RETROpc2_S4>
+  <SEMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1379</LINE></SEMU_4>
+  <CLEAR_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1374</LINE></CLEAR_S4>
+  <EMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1384</LINE></EMU_4>
+  <SEMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1464</LINE></SEMD_4>
+  <DECEMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1413</LINE></DECEMU_4>
+  <INCEMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1438</LINE></INCEMU_4>
+  <DECEMU_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1428</LINE></DECEMU_2_4>
+  <WAIT_DECEMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1422</LINE></WAIT_DECEMU_4>
+  <WAIT_DECEMU_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1433</LINE></WAIT_DECEMU_1_4>
+  <INCEMU_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1452</LINE></INCEMU_2_4>
+  <WAIT_INCEMU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1447</LINE></WAIT_INCEMU_4>
+  <WAIT_INCEMU_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1458</LINE></WAIT_INCEMU_1_4>
+  <EMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1469</LINE></EMD_4>
+  <SEHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1550</LINE></SEHU_4>
+  <DECEMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1497</LINE></DECEMD_4>
+  <INCEMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1522</LINE></INCEMD_4>
+  <DECEMD_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1512</LINE></DECEMD_2_4>
+  <WAIT_DECEMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1506</LINE></WAIT_DECEMD_4>
+  <WAIT_DECEMD_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1517</LINE></WAIT_DECEMD_1_4>
+  <INCEMD_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1536</LINE></INCEMD_2_4>
+  <WAIT_INCEMD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1531</LINE></WAIT_INCEMD_4>
+  <WAIT_INCEMD_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1542</LINE></WAIT_INCEMD_1_4>
+  <EHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1555</LINE></EHU_4>
+  <SEHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1635</LINE></SEHD_4>
+  <DECEHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1582</LINE></DECEHU_4>
+  <INCEHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1607</LINE></INCEHU_4>
+  <DECEHU_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1597</LINE></DECEHU_2_4>
+  <WAIT_DECEHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1591</LINE></WAIT_DECEHU_4>
+  <WAIT_DECEHU_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1602</LINE></WAIT_DECEHU_1_4>
+  <INCEHU_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1621</LINE></INCEHU_2_4>
+  <WAIT_INCEHU_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1616</LINE></WAIT_INCEHU_4>
+  <WAIT_INCEHU_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1627</LINE></WAIT_INCEHU_1_4>
+  <EHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1639</LINE></EHD_4>
+  <DECEHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1666</LINE></DECEHD_4>
+  <INCEHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1691</LINE></INCEHD_4>
+  <DECEHD_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1681</LINE></DECEHD_2_4>
+  <WAIT_DECEHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1675</LINE></WAIT_DECEHD_4>
+  <WAIT_DECEHD_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1686</LINE></WAIT_DECEHD_1_4>
+  <INCEHD_2_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1705</LINE></INCEHD_2_4>
+  <WAIT_INCEHD_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1700</LINE></WAIT_INCEHD_4>
+  <WAIT_INCEHD_1_4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1711</LINE></WAIT_INCEHD_1_4>
+  <RETROpc5_S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1730</LINE></RETROpc5_S1>
+  <RETROpc4_S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1735</LINE></RETROpc4_S1>
+  <RETROpc3_S1><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1740</LINE></RETROpc3_S1>
+  <RETROpc5_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1763</LINE></RETROpc5_S3>
+  <RETROpc4_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1768</LINE></RETROpc4_S3>
+  <RETROpc3_S3><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1773</LINE></RETROpc3_S3>
+  <RETROpc5_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1790</LINE></RETROpc5_S4>
+  <RETROpc4_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1795</LINE></RETROpc4_S4>
+  <RETROpc3_S4><FILE>C:\Users\samue\OneDrive - UVG\Writers ciclo 5\Programación De Microcontroladores\P_M_1\P_M_1\P_M_1\main.asm</FILE><LINE>1800</LINE></RETROpc3_S4>
+ </LABELS>
+</ASSEMBLER_INFO>
