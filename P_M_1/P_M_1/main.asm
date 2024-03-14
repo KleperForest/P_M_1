@@ -4,7 +4,7 @@
 // Autor: Alan Gomez
 // Proyecto: P_1_M.asm
 // Descripción: Proyecto 1 de Programación de Microcontroladores. 
-//				Versión 11.0.6 
+//				Versión 11.5.2 
 // Hardware: ATmega328p
 // Created: 3/06/2024 1:50:47 AM
 //********************************************************************* 
@@ -20,8 +20,8 @@
 .def MD = R14; Minutos Decena
 .def HU = R13; Hora Unidad
 .def HD = R12; Hora Decena
-.def T6 = R11; Hora Unidad
-.def T5 = R10; Hora Decena
+.def T6 = R11; Transistor 6
+.def T5 = R10; Transistor 5
 .def T1 = R9; Transistor 1	
 .def T2 = R8; Transistor 2
 .def T3 = R7; Transistor 3
@@ -32,10 +32,10 @@
 .def T5_4 = R2; Transistor 3 en ALARMA
 .def T6_4 = R3; Transistor 3 en ALARMA
 
-.def T3_3 = R21; Transistor 3 en ALARMA
-.def T4_3 = R22; Transistor 3 en ALARMA
-.def T5_3 = R23; Transistor 3 en ALARMA
-.def T6_3 = R24; Transistor 3 en ALARMA
+.def T3_3 = R21; Transistor 3 
+.def T4_3 = R22; Transistor 3 
+.def T5_3 = R23; Transistor 3 
+.def T6_3 = R24; Transistor 3 
 
 
 .def HM_master = R27; Cargador de Numero en Display
@@ -155,12 +155,12 @@ S0:
 	RJMP RETROpc1_S0// CAMBIO DE MODO
 
 	//LED modo
-	LDI R16, 0b0000_0001
+	LDI R16, 0b0000_0001	// Green
 	OUT PORTC, R16
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000	// Red
 	OUT PORTB, R16
 
-	LDI R16, 0b1000_0000
+	LDI R16, 0b1000_0000   //LEDs Intermedio
 	OUT PORTD, R16
 
 	// Displays
@@ -260,12 +260,12 @@ S0:
 	// solo que en esta ocasión el Led intermedio 
 	// estará apagado  tiempo de S0 y S0_S dan en total 1 segundo
 	   	//LED modo
-		LDI R16, 0b0000_0001
+		LDI R16, 0b0000_0001   // Green
 		OUT PORTC, R16
-		LDI R16, 0b0000_0000
+		LDI R16, 0b0000_0000  // RED
 		OUT PORTB, R16
 
-		LDI R16, 0b0000_0000
+		LDI R16, 0b0000_0000	 // Intermedio 
 		OUT PORTD, R16
 
 		// Displays
@@ -429,7 +429,6 @@ over_nine_hd:  //Modulo de suma de decada h y reseteo de unidad h
 	CLR T2
 	CLR T1
 	CLR HD
-	INC T5_3
 	RJMP S0
 
 /////////////////////////////////////////////////////////////////////////
@@ -440,12 +439,12 @@ S1:	// Clear T1 y T2
 	CLR T2
 
 	//LED modo
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000   //GREEN
 	OUT PORTC, R16
-	LDI R16, 0b0010_0000
+	LDI R16, 0b0010_0000 // RED
 	OUT PORTB, R16
 
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000	 // INTERMEDIO
 	OUT PORTD, R16
 
 
@@ -474,7 +473,7 @@ S1:	// Clear T1 y T2
 		//SET
 		SBIS PINC, PC2// SALTA SI PC2 ES 1
 		RJMP RETROpc2_S1// CAMBIO DE MODO
-		//RIGHT
+		//LEFT
 		SBIS PINC, PC3// SALTA SI PC3 ES 1
 		RJMP SEMD
 		//RJMP RETROpc3_S1// CAMBIO DE MODO
@@ -487,7 +486,7 @@ S1:	// Clear T1 y T2
 		RJMP INCEMU
 		//RJMP RETROpc5_S1// CAMBIO DE MODO
 
-		LDI R16, 0b0000_0001
+		LDI R16, 0b0000_0001  // Transistor de US
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -572,7 +571,7 @@ S1:	// Clear T1 y T2
 		RJMP INCEMD
 		//RJMP RETROpc5_S1// CAMBIO DE MODO
 
-		LDI R16, 0b0000_0010
+		LDI R16, 0b0000_0010   // transistor 2
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -658,7 +657,7 @@ S1:	// Clear T1 y T2
 		RJMP INCEHU
 		//RJMP RETROpc5_S1// CAMBIO DE MODO
 
-		LDI R16, 0b0000_0100
+		LDI R16, 0b0000_0100 // transistor 3
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -815,12 +814,12 @@ S2:
 
 
 	//LED modo
-	LDI R16, 0b1000_0000
+	LDI R16, 0b1000_0000  // led intermedio
 	OUT PORTD, R16
 	////////////////////////////////////
 	MOV HM_master,T3_3  //Cargar posición de Unidad Minutos
 
-	LDI R16, 0b0000_0001
+	LDI R16, 0b0000_0001//ON transistor 1 pb0 - UMDis
 	OUT PORTB, R16
 	LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
 	LDI ZL, LOW(TABLA7U<<1); BIT MENOS SIGNIFICATIVO
@@ -889,15 +888,15 @@ S2:
 	BRCC over_dia_u
 
 	MOV HM_master, T6_3
-	CPI HM_master, 3
+	CPI HM_master, 2 
 	BRCC over_dia_d
 
-	MOV HM_master, T3_3 // MESES
+	MOV HM_master, T3_3 // MESES	 Unidades de mes
 	CPI HM_master, 9
 	BRCC over_mes_u
 
 	MOV HM_master, T4_3	   // Ver si Decena de  ya esta en 1
-	CPI HM_master, 2
+	CPI HM_master, 1
 	BRCC over_mes_d
 
 	MOV HM_master, T4_3	  
@@ -906,7 +905,7 @@ S2:
 	RJMP S2
 
 	MOV HM_master, T3_3	  // si decena y unidad mas de 2 set 00
-	CPI HM_master, 3
+	CPI HM_master, 2
 	BRCC over_mes_d
 
 	RJMP S2
@@ -938,32 +937,32 @@ S2:
 // Estado de C.F.
 S3:	
 	//LED modo
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000 // red
 	OUT PORTC, R16
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000  // green
 	OUT PORTB, R16
 
 	S3_1:
 		SBIS PINC, PC1// SALTA SI PC1 ES 1
 		RJMP RETROpc1_S3// CAMBIO DE MODO
-		CPI R26, 25 // Conteo LOOP DE 1s 
+		CPI R26, 25 // Conteo LOOP 500ms
 		BRNE S3_1
 	CLR R26
 
-	LDI R16, 0b0010_0000
+	LDI R16, 0b0010_0000// green
 	OUT PORTB, R16
 
 	S3_2:
 		SBIS PINC, PC1// SALTA SI PC1 ES 1
 		RJMP RETROpc1_S3// CAMBIO DE MODO
-		CPI R26, 25 // Conteo LOOP DE 1s 
+		CPI R26, 25 // Conteo LOOP 	500ms 
 		BRNE S3_2
 	CLR R26
 	////////////////////////////////////
 	
 	// Aumentar o Disminuir T3_3_3, T4_3_3, T5_3_3, T6_3_3 e indidar V4
-	CLR T1
-	CLR T2
+	CLR T1	// clr us
+	CLR T2	// clr ds
 
 	//BOTONES
 	//Modo
@@ -978,7 +977,7 @@ S3:
 		
 	RJMP S3
 
-	CLEAR_S3:
+	CLEAR_S3:  //over fechas
 		RJMP S3
 	//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 	//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1005,7 +1004,7 @@ S3:
 		RJMP INCEMU_3
 	
 
-		LDI R16, 0b0000_0001
+		LDI R16, 0b0000_0001 // transistor 1
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1090,7 +1089,7 @@ S3:
 		RJMP INCEMD_3
 	
 
-		LDI R16, 0b0000_0010
+		LDI R16, 0b0000_0010   // transistor 2
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1175,7 +1174,7 @@ S3:
 		RJMP INCEHU_3
 	
 
-		LDI R16, 0b0000_0100
+		LDI R16, 0b0000_0100   // transistor 23
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1259,7 +1258,7 @@ S3:
 		RJMP INCEHD_3
 		
 
-		LDI R16, 0b0000_1000 // Activar transistor de U o D
+		LDI R16, 0b0000_1000 // Activar transistor de U o D 4
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1330,13 +1329,13 @@ S3:
 S4:
 
 	// Aumentar o Disminuir T3_4_4, T4_4_4, T5_4_4, T6_4_4 e indidar V4
-	CLR T1
-	CLR T2
+	CLR T1//CLR UnidadSegundo
+	CLR T2 // CLR DecenaSegundo
 
 	//LED modo
-	LDI R16, 0b0000_0001
+	LDI R16, 0b0000_0001   	// LED 1 GREEN
 	OUT PORTC, R16
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000	// LED 0 RED
 	OUT PORTB, R16
 
 	S4_1:
@@ -1346,9 +1345,9 @@ S4:
 		BRNE S4_1
 	CLR R26
 
-	LDI R16, 0b0000_0000
+	LDI R16, 0b0000_0000   // lEDS 0  GREEN
 	OUT PORTC, R16
-	LDI R16, 0b0010_0000
+	LDI R16, 0b0010_0000   // LEDS 1 RED
 	OUT PORTB, R16
 
 	S4_2:
@@ -1398,7 +1397,7 @@ S4:
 		RJMP INCEMU_4
 	
 
-		LDI R16, 0b0000_0001
+		LDI R16, 0b0000_0001   // transistor 1
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1483,7 +1482,7 @@ S4:
 		RJMP INCEMD_4
 	
 
-		LDI R16, 0b0000_0010
+		LDI R16, 0b0000_0010  //transistor 2
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
@@ -1568,7 +1567,7 @@ S4:
 		RJMP INCEHU_4
 	
 
-		LDI R16, 0b0000_0100
+		LDI R16, 0b0000_0100 //transistor 3
 		OUT PORTB, R16
 
 		LDI ZH, HIGH(TABLA7U <<1); BIT MAS SIGNIFICATIVO
